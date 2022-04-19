@@ -25,6 +25,8 @@ This will help us in creating their contour, which we can apply to the original 
     TO-DO :
     - Highlight the contoured numbers one-by-one.
     - Save the numbers into separate files.
+    - Implement the highlighting based on this article: 
+      https://pyimagesearch.com/2015/04/20/sorting-contours-using-python-and-opencv/
     
 
 

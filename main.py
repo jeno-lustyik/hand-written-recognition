@@ -20,11 +20,6 @@ contours, h = cv.findContours(dil, cv.RETR_EXTERNAL, cv.CHAIN_APPROX_NONE)
 img_copy = img.copy()
 cv.drawContours(img_copy, contours, -1, (255, 0, 0), 2)
 
-cv.imshow('img', img_copy)
-cv.waitKey(0)
-cv.destroyAllWindows()
-cv.waitKey(1)
-
 def sort_contours(cnts, method="left-to-right"):
     # initialize the reverse flag and sort index
     reverse = False
